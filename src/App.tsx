@@ -62,7 +62,7 @@ const App = () => {
             type="text"
             {...register('task')}
             placeholder="Enter a new task..."
-            className={`border text-white w-full p-2 rounded-md ${errors.task ? 'border-red-500' : 'border-green-400'}`}
+            className={`border text-yellow-400 w-full p-2 rounded-md ${errors.task ? 'border-red-500' : 'border-green-400'}`}
           />
           {errors.task && (
             <p className="text-red-500 text-sm mt-1">{errors.task.message}</p>
