@@ -53,9 +53,9 @@ const App = () => {
   };
 
   return (
-    <div className="bg-slate-950 m-8 rounded-lg w-1/2 max-sm:w-full justify-items-center">
-      <div className=" p-8 rounded-lg shadow-lg w-full max-w-md mx-auto">
-        <h1 className="text-5xl mb-4 text-yellow-500 font-bold text-center">To-Do List</h1>
+    <div className="bg-slate-950 mt-6 rounded-lg p-10 mx-6 flex justify-items-center">
+      <div className=" p-8 rounded-lg shadow-lg w-full  mx-auto">
+        <h1 className="text-5xl mb-6 text-yellow-500 font-bold text-center">To-Do List</h1>
 
         <form onSubmit={handleSubmit(onSubmit)} className="mb-4">
           <input
